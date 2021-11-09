@@ -6,3 +6,29 @@
   --third-color: #000000;
   --button-color: #f5f4fa;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+.second-web {
+  color: var(--third-color);
+}
+.third-web {
+  color: var(--header-color);
+}
+
+.pointer {
+  cursor: pointer;
