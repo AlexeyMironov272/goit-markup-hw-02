@@ -32,3 +32,32 @@ body {
 
 .pointer {
   cursor: pointer;
+
+  /* -----header----- */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.menu-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.menu-link-color {
+  color: var(--second-text-color);
+}
+
+.menu-link.current {
+  color: var(--accent-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
