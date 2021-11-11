@@ -7,6 +7,10 @@
   --button-color: #f5f4fa;
 }
 
+.header {
+  background-color: #2f303a;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -152,6 +156,7 @@ body {
 .footer {
   background-color: #2f303a;
 }
+
 .footer-address {
   font-style: inherit;
 }
