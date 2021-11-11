@@ -5,6 +5,8 @@
   --accent-color: #2196f3;
   --third-color: #000000;
   --button-color: #f5f4fa;
+  --background-color-accent: #2F303A;
+
 }
 
 .header-nav {
@@ -127,6 +129,10 @@ body {
 
 /* -----section 4----- */
 
+.team {
+  background-color: var(--button-color);
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -154,7 +160,7 @@ body {
 /* -----footer----- */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-color-accent)
 }
 
 .footer-address {
